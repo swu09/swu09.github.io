@@ -1,15 +1,113 @@
 {
   "department": [
-    {
-      "original_name": "Earth and Climate Sciences",
-	  "division": "School of Arts, Sciences, and Engineering",
-	  "suggested_preferred_name": "Earth and Climate Sciences"
-    },
-	{
-      "original_name": "Student Affairs - Fletcher",
-	  "division": "The Fletcher School",
-	  "suggested_preferred_name": "Fletcher (Employee)"
-    }
+		{
+		  "original_name": "Earth and Climate Sciences",
+		  "division": "School of Arts, Sciences, and Engineering",
+		  "preferred_name": null
+		},
+		{
+		  "original_name": "Student Affairs - Fletcher",
+		  "division": "The Fletcher School",
+		  "preferred_name": "Fletcher (Employee)"
+		},
+		{
+		  "original_name": "University Strategy & Pgrm Dev",
+		  "division": "Central Administration",
+		  "preferred_name": "Central - Others"
+		}
   
+    ],
+  "sis_major": [
+		{
+		  "original_name": "Cross Reg. Berklee ProArts",
+		  "school": "Arts & Sciences",
+		  "preferred_name": "Arts & Sciences(Student)",
+		  "derived_degree": null
+		},
+		{
+		  "original_name": "HS Marketing Essentials",
+		  "school": "University College",
+		  "preferred_name": "University College",
+		  "derived_degree": null
+		},
+		{
+		  "original_name": "Visiting Fellows Program",
+		  "school": "Fletcher",
+		  "preferred_name": null,
+		  "derived_degree": null
+		},
+		{
+		  "original_name": "Occupational Therapy (OTD)",
+		  "school": "Arts & Sciences",
+		  "preferred_name": null,
+		  "derived_degree": "OTD"
+		},
+		{
+		  "original_name": "Genetics, Mol Cell Bio (PHD)",
+		  "school": "Graduate School of Biomedical Sciences",
+		  "preferred_name": null,
+		  "derived_degree": "PHD"
+		}
+    ],
+  "acad_org": [
+		{
+		  "acad_org": "PHPD",
+		  "acad_org_desc": "Public Hlth & Prof Degree Prog",
+		  "main_school": "Medical",
+		  "preferred_name": "Public Health & Community Medicine"
+		},
+		{
+		  "acad_org": "Harvard",
+		  "acad_org_desc": "Harvard Cross Registration",
+		  "main_school": "Fletcher",
+		  "preferred_name": "Fletcher"
+		},
+		{
+		  "acad_org": "BMN",
+		  "acad_org_desc": "Biochem & Mol Nutrition",
+		  "main_school": "Friedman",
+		  "preferred_name": null
+		}
+    ],
+  "software": [
+		{
+		  "software_name": "AceThinker PDF Editor for Windows (Yearly plan - 1 Computer)",
+		  "os": "Windows",
+		  "software_license_name": null,
+		  "display_usage": null,
+		  "preferred_name": null
+		},
+		{
+		  "software_name": "Mathcad Prime",
+		  "os": "Others/Unknown",
+		  "software_license_name": null,
+		  "display_usage": null,
+		  "preferred_name": null
+		},
+		{
+		  "software_name": "Adobe Creative Cloud ETLA 4MO (Paid)",
+		  "os": "Others/Unknown",
+		  "software_license_name": "Adobe Creative Cloud",
+		  "display_usage": "Y",
+		  "preferred_name": "ACC Downloads"
+		}
+    ],
+  "table": [
+		{
+		  "entity_type": "SIS Major",
+		  "table_name": "unify_sis_majors"
+		},
+		{
+		  "entity_type": "Department Name",
+		  "table_name": "unify_names"
+		},
+		{
+		  "entity_type": "Academic Org",
+		  "table_name": "unify_acad_orgs"
+		},
+		{
+		  "entity_type": "Software",
+		  "table_name": "software_names"
+		}
     ]
 }
