@@ -95,19 +95,23 @@
   "table": [
 		{
 		  "entity_type": "SIS Major",
-		  "table_name": "unify_sis_majors"
+		  "target_table": "unified_sis_majors",
+		  "source_table": "missing_unified_sis_majors"
 		},
 		{
 		  "entity_type": "Department Name",
-		  "table_name": "unify_names"
+		  "target_table": "unified_names",
+		  "source_table": "missing_unified_names"
 		},
 		{
 		  "entity_type": "Academic Org",
-		  "table_name": "unify_acad_orgs"
+		  "target_table": "unified_acad_orgs",
+		  "source_table": "missing_unified_acad_orgs"
 		},
 		{
 		  "entity_type": "Software",
-		  "table_name": "software_names"
+		  "target_table": "software_names",
+		  "source_table": "missing_software_names"
 		}
     ]
 }
