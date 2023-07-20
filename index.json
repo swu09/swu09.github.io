@@ -11,9 +11,14 @@
 		  "preferred_name": "Fletcher (Employee)"
 		},
 		{
-		  "original_name": "University Strategy & Pgrm Dev",
+		  "original_name": "University Comms & Marketing",
 		  "division": "Central Administration",
 		  "preferred_name": "Central - Others"
+		},
+		{
+		  "original_name": "Dean Of Student Life AS&E",
+		  "division": "School of Arts, Sciences, and Engineering",
+		  "preferred_name": null
 		}
   
     ],
@@ -74,14 +79,14 @@
 		  "software_name": "AceThinker PDF Editor for Windows (Yearly plan - 1 Computer)",
 		  "os": "Windows",
 		  "software_license_name": null,
-		  "display_usage": null,
+		  "display_usage": "N",
 		  "preferred_name": null
 		},
 		{
 		  "software_name": "Mathcad Prime",
 		  "os": "Others/Unknown",
 		  "software_license_name": null,
-		  "display_usage": null,
+		  "display_usage": "Y",
 		  "preferred_name": null
 		},
 		{
